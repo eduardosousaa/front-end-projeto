@@ -97,9 +97,9 @@ const CardArea: React.FC<CardAreaProps> = ({ limit, properties }) => {
             favoriteIdMapping={favoriteMapping} // Passa o mapeamento de IDs favoritos
           />
         ))}
-        <div className="xl:w-[310px] lg:w-[260px] md:w-[185px] sm:w-[250px] xt:w-[175px] xs:w-[160px] h-auto bg-gray-500 rounded-xl">
+        {/* <div className="xl:w-[310px] lg:w-[260px] md:w-[185px] sm:w-[250px] xt:w-[175px] xs:w-[160px] h-auto bg-gray-500 rounded-xl">
           Anúncio
-        </div>
+        </div> */}
       </div>
     </div>
   );
